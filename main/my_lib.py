@@ -13,9 +13,9 @@ def fib(n):
         arr.pop(0)
     i = 0
     while i < n - 2:
-        sum = n1 + n2
+        summa = n1 + n2
         n1 = n2
-        n2 = sum
+        n2 = summa
         arr.append(n2)
         i += 1
     return arr
